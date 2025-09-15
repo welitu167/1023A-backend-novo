@@ -2,7 +2,7 @@ import 'dotenv/config'
 import express, { Request, Response } from 'express';
 import { MongoClient } from 'mongodb';
 
-const client = new MongoClient(process.env.MONGO_URI!)
+const client = new MongoClient(process.env.MONGODB_URI!)
 await client.connect()
 const db = client.db(process.env.MONGO_DB)
 const app = express();
