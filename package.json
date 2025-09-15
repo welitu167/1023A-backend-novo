@@ -1,7 +1,7 @@
 {
   "name": "1023a-backend-novo",
   "version": "1.0.0",
-  "main": "index-mongo.js",
+  "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "dev:mongo": "tsx watch src/index-mongo.ts",
