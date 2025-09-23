@@ -1,5 +1,5 @@
-import usuarioController from "./usuarios/usuario.controller";
-import produtoController from "./produtos/produto.controller";
+import usuarioController from "./usuarios/usuario.controller.js";
+import produtoController from "./produtos/produto.controller.js";
 
 import { Router } from "express";
 
